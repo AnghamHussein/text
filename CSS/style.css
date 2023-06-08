@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.page-parent{
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+     /* background-color: #fff;  */
+    box-shadow: 3px -1px 12px 3px #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .page-parent div{
+
+    width: 250px;
+    height: 450px;
+    
+     border-radius: 5px; 
+} */
+.left-div{
+    width: 250px;
+    height: 350px;
+    background-color: #4333a1;
+    border-radius: 15px;
+    z-index: 999;
+
+
+}
+h4{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.circle-result{
+    width: 100px;
+     height: 100px ; 
+    border-radius: 50%;
+    background-color: #2a1988;
+    /* background-color: #70a018; */
+     margin: 25px auto;
+     color: #fff;
+}
+.text-result{
+    width: 200px;
+   margin: 20px auto;
+   text-align: center;
+  color: #ffffff85;
+}
+.right-div{
+    width: 250px;
+    height: 350px;
+    /* background-color: #eee; */
+    box-shadow: 4px -3px 10px 10px #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    z-index: -10;
+  
+    grid-template-rows: repeat( 5 , 1fr);
+    /* row-gap: 2px; */
+    justify-content:center;
+   
+
+
+}
+/* .right-div {
+    width: 200px;
+    height: 50px;
+    background-color: #4333a1;
+    border-radius: 10px;
+} */
+.reactin , .memmory,.verbat,.visual ,.continu{
+    width: 200px;
+    height: 40px;
+    /* background-color: #4333a1; */
+    border-radius: 10px;
+   /* margin: 0px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.reactin{
+    background-color: #d4bfce8a !important;
+    color: #b928b2;
+    font-weight: 900;
+}
+.memmory{
+    background-color: #fac67770 !important;
+    color: #a06610;
+    font-weight: 900;
+}
+.verbat{
+    background-color: #68df8680 !important;
+    color: #0f882d;
+    font-weight: 900;
+}
+.visual{
+    background-color: #5553c96e !important;
+    color: #1a086b;
+    font-weight: 900;
+}
+.continu{
+    background-color: #12074e !important;
+    border-radius: 25px;
+    color: #fff;
+    margin-bottom: 5px;
+}
